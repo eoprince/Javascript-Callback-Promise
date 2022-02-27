@@ -46,7 +46,7 @@ function createPost(post, callback) {
 // Async / Await / Fetch
 async function fetchUsers() {
     const res = await fetch 
-    ('https://jsonplaceholder.typicode.com/users');
+    ('https://geocode.xyz/seattle?json=1');
 
     const data = await res.json();
     
